@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF668C0127BC6AB000F3EDC1 /* course_apple_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C0027BC6AB000F3EDC1 /* course_apple_swiftApp.swift */; };
-		BF668C0327BC6AB000F3EDC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C0227BC6AB000F3EDC1 /* ContentView.swift */; };
+		BF668C0327BC6AB000F3EDC1 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C0227BC6AB000F3EDC1 /* MeetingView.swift */; };
 		BF668C0527BC6AB100F3EDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF668C0427BC6AB100F3EDC1 /* Assets.xcassets */; };
 		BF668C0827BC6AB100F3EDC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF668C0727BC6AB100F3EDC1 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		BF668BFD27BC6AB000F3EDC1 /* course-apple-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "course-apple-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF668C0027BC6AB000F3EDC1 /* course_apple_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = course_apple_swiftApp.swift; sourceTree = "<group>"; };
-		BF668C0227BC6AB000F3EDC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF668C0227BC6AB000F3EDC1 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		BF668C0427BC6AB100F3EDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF668C0727BC6AB100F3EDC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,8 +51,9 @@
 		BF668BFF27BC6AB000F3EDC1 /* course-apple-swift */ = {
 			isa = PBXGroup;
 			children = (
+				BF668C0F27BC71E400F3EDC1 /* Models */,
 				BF668C0027BC6AB000F3EDC1 /* course_apple_swiftApp.swift */,
-				BF668C0227BC6AB000F3EDC1 /* ContentView.swift */,
+				BF668C0227BC6AB000F3EDC1 /* MeetingView.swift */,
 				BF668C0427BC6AB100F3EDC1 /* Assets.xcassets */,
 				BF668C0627BC6AB100F3EDC1 /* Preview Content */,
 			);
@@ -65,6 +66,13 @@
 				BF668C0727BC6AB100F3EDC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF668C0F27BC71E400F3EDC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF668C0327BC6AB000F3EDC1 /* ContentView.swift in Sources */,
+				BF668C0327BC6AB000F3EDC1 /* MeetingView.swift in Sources */,
 				BF668C0127BC6AB000F3EDC1 /* course_apple_swiftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

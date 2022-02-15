@@ -11,7 +11,7 @@ import SwiftUI
 struct course_apple_swiftApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MeetingView()
         }
     }
 }
