@@ -15,6 +15,7 @@
 		BF668C1327BC733A00F3EDC1 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C1227BC733A00F3EDC1 /* DailyScrum.swift */; };
 		BF668C1527BC73BF00F3EDC1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C1427BC73BF00F3EDC1 /* CardView.swift */; };
 		BF668C1727BC774300F3EDC1 /* Trailing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C1627BC774300F3EDC1 /* Trailing.swift */; };
+		BF668C1927BD41BD00F3EDC1 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF668C1827BD41BD00F3EDC1 /* ScrumsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BF668C1227BC733A00F3EDC1 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		BF668C1427BC73BF00F3EDC1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		BF668C1627BC774300F3EDC1 /* Trailing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailing.swift; sourceTree = "<group>"; };
+		BF668C1827BD41BD00F3EDC1 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				BF668C0F27BC71E400F3EDC1 /* Models */,
 				BF668C0027BC6AB000F3EDC1 /* course_apple_swiftApp.swift */,
 				BF668C1427BC73BF00F3EDC1 /* CardView.swift */,
+				BF668C1827BD41BD00F3EDC1 /* ScrumsView.swift */,
 				BF668C1627BC774300F3EDC1 /* Trailing.swift */,
 				BF668C0227BC6AB000F3EDC1 /* MeetingView.swift */,
 				BF668C0427BC6AB100F3EDC1 /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				BF668C1327BC733A00F3EDC1 /* DailyScrum.swift in Sources */,
 				BF668C1727BC774300F3EDC1 /* Trailing.swift in Sources */,
 				BF668C1127BC729200F3EDC1 /* Theme.swift in Sources */,
+				BF668C1927BD41BD00F3EDC1 /* ScrumsView.swift in Sources */,
 				BF668C0327BC6AB000F3EDC1 /* MeetingView.swift in Sources */,
 				BF668C0127BC6AB000F3EDC1 /* course_apple_swiftApp.swift in Sources */,
 				BF668C1527BC73BF00F3EDC1 /* CardView.swift in Sources */,
@@ -293,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"course-apple-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UJ49D2887;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -318,9 +323,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"course-apple-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = 9UJ49D2887;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -335,6 +342,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.com.examples.course-apple-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

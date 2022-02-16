@@ -34,7 +34,7 @@ struct MeetingView: View {
                 Button(action: {}) {
                     Image(systemName: "forward.fill")
                 }
-                acessibilityLabel("Next speaker")
+                .accessibilityLabel("Next speaker")
             }
         }
         .padding()
